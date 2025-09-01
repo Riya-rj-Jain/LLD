@@ -9,14 +9,13 @@
 
   <ItemGroup>
     <Folder Include="Constants\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Data\Repositories\" />
     <Folder Include="Helpers\" />
-    <Folder Include="Interfaces\" />
     <Folder Include="Migrations\" />
-    <Folder Include="Models\Entities\" />
     <Folder Include="Models\ViewModels\" />
-    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.3.0" />
   </ItemGroup>
 
 </Project>
