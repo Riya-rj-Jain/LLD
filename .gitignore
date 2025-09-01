@@ -1,0 +1,27 @@
+# Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+Debug/
+Release/
+
+# Rider, VS Code, and other IDE files
+*.vscode/
+*.idea/
+
+# Temporary databases or caches
+*.db
+*.db-shm
+*.db-wal
+*.dtbcache.v2
+*.metadata.v9.bin
+*.projects.v9.bin
+*.strings.v9.bin
+
+# Others
+*.log
