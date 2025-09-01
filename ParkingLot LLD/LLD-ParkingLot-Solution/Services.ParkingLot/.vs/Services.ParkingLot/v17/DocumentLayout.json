@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\LLD\\ParkingLot LLD\\LLD-ParkingLot-Solution\\Services.ParkingLot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B67EA3-1649-4522-A732-A5B841C60C8C}|Services.ParkingLot.API\\Services.ParkingLot.API.csproj|c:\\lld\\parkinglot lld\\lld-parkinglot-solution\\services.parkinglot\\services.parkinglot.api\\data\\parkinglotdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B67EA3-1649-4522-A732-A5B841C60C8C}|Services.ParkingLot.API\\Services.ParkingLot.API.csproj|solutionrelative:services.parkinglot.api\\data\\parkinglotdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B67EA3-1649-4522-A732-A5B841C60C8C}|Services.ParkingLot.API\\Services.ParkingLot.API.csproj|c:\\lld\\parkinglot lld\\lld-parkinglot-solution\\services.parkinglot\\services.parkinglot.api\\services.parkinglot.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E7B67EA3-1649-4522-A732-A5B841C60C8C}|Services.ParkingLot.API\\Services.ParkingLot.API.csproj|solutionrelative:services.parkinglot.api\\services.parkinglot.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B67EA3-1649-4522-A732-A5B841C60C8C}|Services.ParkingLot.API\\Services.ParkingLot.API.csproj|c:\\lld\\parkinglot lld\\lld-parkinglot-solution\\services.parkinglot\\services.parkinglot.api\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B67EA3-1649-4522-A732-A5B841C60C8C}|Services.ParkingLot.API\\Services.ParkingLot.API.csproj|solutionrelative:services.parkinglot.api\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BFB26DC-0CD7-46B2-A340-4B5A909AFA20}|Services.ParkingLot.Startup\\Services.ParkingLot.Startup.csproj|c:\\lld\\parkinglot lld\\lld-parkinglot-solution\\services.parkinglot\\services.parkinglot.startup\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BFB26DC-0CD7-46B2-A340-4B5A909AFA20}|Services.ParkingLot.Startup\\Services.ParkingLot.Startup.csproj|solutionrelative:services.parkinglot.startup\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ParkingLotDbContext.cs",
+              "DocumentMoniker": "C:\\LLD\\ParkingLot LLD\\LLD-ParkingLot-Solution\\Services.ParkingLot\\Services.ParkingLot.API\\Data\\ParkingLotDbContext.cs",
+              "RelativeDocumentMoniker": "Services.ParkingLot.API\\Data\\ParkingLotDbContext.cs",
+              "ToolTip": "C:\\LLD\\ParkingLot LLD\\LLD-ParkingLot-Solution\\Services.ParkingLot\\Services.ParkingLot.API\\Data\\ParkingLotDbContext.cs",
+              "RelativeToolTip": "Services.ParkingLot.API\\Data\\ParkingLotDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T12:06:41.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Services.ParkingLot.API",
+              "DocumentMoniker": "C:\\LLD\\ParkingLot LLD\\LLD-ParkingLot-Solution\\Services.ParkingLot\\Services.ParkingLot.API\\Services.ParkingLot.API.csproj",
+              "RelativeDocumentMoniker": "Services.ParkingLot.API\\Services.ParkingLot.API.csproj",
+              "ToolTip": "C:\\LLD\\ParkingLot LLD\\LLD-ParkingLot-Solution\\Services.ParkingLot\\Services.ParkingLot.API\\Services.ParkingLot.API.csproj",
+              "RelativeToolTip": "Services.ParkingLot.API\\Services.ParkingLot.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-01T12:04:13.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceCollectionExtension.cs",
+              "DocumentMoniker": "C:\\LLD\\ParkingLot LLD\\LLD-ParkingLot-Solution\\Services.ParkingLot\\Services.ParkingLot.API\\ServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "Services.ParkingLot.API\\ServiceCollectionExtension.cs",
+              "ToolTip": "C:\\LLD\\ParkingLot LLD\\LLD-ParkingLot-Solution\\Services.ParkingLot\\Services.ParkingLot.API\\ServiceCollectionExtension.cs",
+              "RelativeToolTip": "Services.ParkingLot.API\\ServiceCollectionExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T12:03:37.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\LLD\\ParkingLot LLD\\LLD-ParkingLot-Solution\\Services.ParkingLot\\Services.ParkingLot.Startup\\Program.cs",
+              "RelativeDocumentMoniker": "Services.ParkingLot.Startup\\Program.cs",
+              "ToolTip": "C:\\LLD\\ParkingLot LLD\\LLD-ParkingLot-Solution\\Services.ParkingLot\\Services.ParkingLot.Startup\\Program.cs",
+              "RelativeToolTip": "Services.ParkingLot.Startup\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T12:03:07.079Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
