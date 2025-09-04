@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.ComponentModel.DataAnnotations;
 
 namespace Services.ParkingLot.API.Models.Entities
 {
-    internal class Floor
+    public class Floor
     {
+        [Key] 
+        public int FloorId { get; set; }
+
+        public int Floor_number { get; set; }
     }
 }

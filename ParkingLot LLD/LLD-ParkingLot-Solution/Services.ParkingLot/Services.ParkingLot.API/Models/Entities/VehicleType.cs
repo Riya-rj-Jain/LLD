@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+
+using System.ComponentModel.DataAnnotations;
 
 namespace Services.ParkingLot.API.Models.Entities
 {
-    internal class VehicleType
+    public class VehicleType
     {
+        [Key]
+        public int VehicleTypeId { get; set; }
+        public string VehicleName { get; set; }
+
     }
 }

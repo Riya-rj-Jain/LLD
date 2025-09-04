@@ -1,12 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+
+using System.ComponentModel.DataAnnotations;
 
 namespace Services.ParkingLot.API.Models.Entities
 {
-    internal class Slot
+    public class Slot
     {
+        [Key]
+        public int SlotId { get; set; }
+
+        public string? SlotName { get; set; }
+
+        [Required]
+        public bool IsOccupied { get; set; }
+        public int FloorId { get; set; }
+
+        public Floor? Floor { get; set; }
+
+        public int VehicleTypeId { get; set; }
+
+        public VehicleType? VehicleType { get; set; }
     }
 }

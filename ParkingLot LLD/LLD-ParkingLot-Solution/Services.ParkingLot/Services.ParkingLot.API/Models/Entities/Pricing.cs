@@ -1,12 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Services.ParkingLot.API.Models.Entities
 {
-    internal class Pricing
+    public class Pricing
     {
+        [Key]
+        int Id { get; set; }
+        public decimal Price_per_minute { get; set; } 
+        public decimal Price_per_hour { get; set; }
+
+        [Required]
+        public int VehicleTypeId { get; set; }
+
+        public VehicleType? VehicleType { get; set; }
     }
 }
+
