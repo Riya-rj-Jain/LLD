@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Services.ParkingLot.API.Interfaces
 {
-    internal interface PricingInterface
+    public interface PricingInterface
     {
     }
 }

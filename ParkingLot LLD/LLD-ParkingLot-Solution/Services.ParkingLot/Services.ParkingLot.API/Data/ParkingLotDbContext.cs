@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Services.ParkingLot.API.Data
 {
-    internal class ParkingLotDbContext
+    public class ParkingLotDbContext
     {
+
     }
 }

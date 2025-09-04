@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Services.ParkingLot.API.Models.Entities;
 
 namespace Services.ParkingLot.API.Interfaces
 {
-    internal interface FloorInterface
+    public interface IFloorService
     {
+        Task<bool> AddFloor(Floor floor);
+        Task<bool> UpdateFloor(Floor floor);
+        Task<bool> DeleteFloor(int floorId);
     }
+
 }

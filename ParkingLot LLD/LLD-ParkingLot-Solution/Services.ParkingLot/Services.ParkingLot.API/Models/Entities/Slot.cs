@@ -17,7 +17,7 @@ namespace Services.ParkingLot.API.Models.Entities
 
         public Floor? Floor { get; set; }
 
-        public int VehicleTypeId { get; set; }
+        public int? VehicleTypeId { get; set; }
 
         public VehicleType? VehicleType { get; set; }
     }
