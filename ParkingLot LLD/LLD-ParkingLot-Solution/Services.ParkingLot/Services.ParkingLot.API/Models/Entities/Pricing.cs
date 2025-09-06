@@ -5,7 +5,7 @@ namespace Services.ParkingLot.API.Models.Entities
     public class Pricing
     {
         [Key]
-        int Id { get; set; }
+        public int Id { get; set; }
         public decimal Price_per_minute { get; set; } 
         public decimal Price_per_hour { get; set; }
 
