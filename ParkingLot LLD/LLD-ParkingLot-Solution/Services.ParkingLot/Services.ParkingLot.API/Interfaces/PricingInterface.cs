@@ -1,11 +1,12 @@
-﻿using Services.ParkingLot.API.Models.Entities;
+﻿
+using Services.ParkingLot.API.Models.ViewModels;
 
 namespace Services.ParkingLot.API.Interfaces
 {
     public interface PricingInterface
     {
-        Task AddPricing(Pricing Pricemodel);
-        Task UpdatePricing(Pricing Pricemodel);
+        Task<PricingViewModel> AddPricing(PricingViewModel Pricemodel);
+        Task<PricingViewModel> UpdatePricing(PricingViewModel Pricemodel);
 
     }
 }

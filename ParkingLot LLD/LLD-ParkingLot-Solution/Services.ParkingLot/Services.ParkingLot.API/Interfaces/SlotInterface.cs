@@ -1,12 +1,13 @@
 ﻿using Services.ParkingLot.API.Models.Entities;
+using Services.ParkingLot.API.Models.ViewModels;
 
 
 namespace Services.ParkingLot.API.Interfaces
 {
     public interface SlotInterface
     {
-        Task AddSlot(Slot slot);
-        Task UpdateSloot(Slot slot);
+        Task<SlotViewModel> AddSlot(SlotViewModel slot);
+        Task<SlotViewModel> UpdateSloot(SlotViewModel slot);
         Task<bool> DeleteSlot(int SlotId);
     }
 }
