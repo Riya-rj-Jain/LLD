@@ -2,7 +2,9 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Services.ParkingLot.API.Data;
-
+using Services.ParkingLot.API.Data.Repositories;
+using Services.ParkingLot.API.Interfaces;
+using Services.ParkingLot.API.Services;
 
 namespace Services.ParkingLot.API
 {
@@ -26,10 +28,11 @@ namespace Services.ParkingLot.API
                     {
                         mysqlOptions.EnableRetryOnFailure(
                             int.Parse(configuration["DbConnRetryCounts"] ?? "3"));
-                       
                     });
-
             });
+
+            services.AddScoped<IFloorInterface, FloorRepository>();
+            services.AddScoped<FloorService>(); 
 
             return services;
         }
