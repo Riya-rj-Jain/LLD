@@ -4,8 +4,8 @@ namespace Services.ParkingLot.API.Interfaces
 {
     public interface IFloorService
     {
-        Task<bool> AddFloor(Floor floor);
-        Task<bool> UpdateFloor(Floor floor);
+        Task AddFloor(Floor floor);
+        Task UpdateFloor(Floor floor);
         Task<bool> DeleteFloor(int floorId);
     }
 
