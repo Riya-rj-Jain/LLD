@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Services.ParkingLot.API.Models.Entities;
 
 namespace Services.ParkingLot.API.Interfaces
 {
     public interface PricingInterface
     {
+        Task AddPricing(Pricing Pricemodel);
+        Task UpdatePricing(Pricing Pricemodel);
+
     }
 }

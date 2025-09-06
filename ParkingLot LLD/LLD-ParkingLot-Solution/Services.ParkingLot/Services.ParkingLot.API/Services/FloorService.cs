@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Services.ParkingLot.API.Services
 {
-    internal class FloorService
+    public class FloorService
     {
     }
 }

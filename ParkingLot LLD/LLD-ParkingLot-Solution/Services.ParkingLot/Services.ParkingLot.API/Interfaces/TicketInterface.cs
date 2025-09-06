@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+
+using Services.ParkingLot.API.Models.Entities;
 
 namespace Services.ParkingLot.API.Interfaces
 {
-    internal interface TicketInterface
+    public interface TicketInterface
     {
+        Task AddTicket(Ticket ticket);
+        Task UpdateTicket(Ticket ticket);
+        Task<bool> DeleteTicket(int TicketId);
     }
 }

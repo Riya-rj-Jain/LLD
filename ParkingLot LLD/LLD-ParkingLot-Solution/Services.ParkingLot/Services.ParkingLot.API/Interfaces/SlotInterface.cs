@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Services.ParkingLot.API.Models.Entities;
+
 
 namespace Services.ParkingLot.API.Interfaces
 {
-    internal interface SlotInterface
+    public interface SlotInterface
     {
+        Task AddSlot(Slot slot);
+        Task UpdateSloot(Slot slot);
+        Task<bool> DeleteSlot(int SlotId);
     }
 }

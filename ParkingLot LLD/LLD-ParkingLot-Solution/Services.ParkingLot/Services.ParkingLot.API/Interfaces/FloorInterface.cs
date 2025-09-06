@@ -1,11 +1,11 @@
-﻿using Services.ParkingLot.API.Models.Entities;
+﻿using Services.ParkingLot.API.Models.ViewModels;
 
 namespace Services.ParkingLot.API.Interfaces
 {
-    public interface IFloorService
+    public interface IFloorInterface
     {
-        Task AddFloor(Floor floor);
-        Task UpdateFloor(Floor floor);
+        Task<FloorViewModel> AddFloor(FloorViewModel model);
+        Task<FloorViewModel> UpdateFloor(FloorViewModel model);
         Task<bool> DeleteFloor(int floorId);
     }
 
