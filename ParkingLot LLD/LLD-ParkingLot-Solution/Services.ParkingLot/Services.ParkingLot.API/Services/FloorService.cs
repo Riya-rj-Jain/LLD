@@ -16,5 +16,13 @@ namespace Services.ParkingLot.API.Services
         {
             return await _floorRepository.AddFloor(model);
         }
+        public async Task<FloorViewModel> UpdateFloor(FloorViewModel model)
+        {
+            return await _floorRepository.UpdateFloor(model);
+        }
+        public async Task<bool> DeleteFloor(int floorId)
+        {
+            return await _floorRepository.DeleteFloor(floorId);
+        }
     }
 }

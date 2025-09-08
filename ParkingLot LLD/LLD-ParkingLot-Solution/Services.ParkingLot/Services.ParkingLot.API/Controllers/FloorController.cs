@@ -26,5 +26,20 @@ namespace Services.ParkingLot.API.Controllers
 
             return Ok(result);
         }
+
+        [HttpPut]
+        public async Task<IActionResult> UpdateFloor([FromBody] FloorViewModel model)
+        {
+            var result = await _floorService.UpdateFloor(model);
+
+            if (result == null)
+                return BadRequest("Failed to add floor");
+
+            return Ok(result);
+        }
+
+
+
+
     }
 }
