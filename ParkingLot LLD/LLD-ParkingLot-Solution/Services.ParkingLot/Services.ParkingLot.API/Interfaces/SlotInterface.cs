@@ -9,5 +9,8 @@ namespace Services.ParkingLot.API.Interfaces
         Task<SlotViewModel> AddSlot(SlotViewModel slot);
         Task<SlotViewModel> UpdateSloot(SlotViewModel slot);
         Task<bool> DeleteSlot(int SlotId);
+        Task<(int SlotId, int FloorId)?> GetAvailableSlotAsync(int vehicleTypeId);
+
+        Task<bool> UpdateSlotAvailability(int SlotId, bool isOccupied);
     }
 }

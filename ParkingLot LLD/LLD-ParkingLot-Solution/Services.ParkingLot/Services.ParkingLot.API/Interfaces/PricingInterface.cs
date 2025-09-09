@@ -1,4 +1,5 @@
 ﻿
+
 using Services.ParkingLot.API.Models.ViewModels;
 
 namespace Services.ParkingLot.API.Interfaces
@@ -7,6 +8,8 @@ namespace Services.ParkingLot.API.Interfaces
     {
         Task<PricingViewModel> AddPricing(PricingViewModel Pricemodel);
         Task<PricingViewModel> UpdatePricing(PricingViewModel Pricemodel);
+
+        Task<decimal> GetTotalPrice(DateTime entryTime, DateTime exitTime, int vehicleTypeId);
 
     }
 }

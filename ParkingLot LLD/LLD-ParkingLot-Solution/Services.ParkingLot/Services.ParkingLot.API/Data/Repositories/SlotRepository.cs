@@ -1,4 +1,5 @@
 ﻿
+using Microsoft.EntityFrameworkCore;
 using Services.ParkingLot.API.Interfaces;
 using Services.ParkingLot.API.Models.Entities;
 using Services.ParkingLot.API.Models.ViewModels;
@@ -56,6 +57,33 @@ namespace Services.ParkingLot.API.Data.Repositories
             await _context.SaveChangesAsync();
 
             return slot;
+        }
+
+        public async Task<(int SlotId, int FloorId)?> GetAvailableSlotAsync(int vehicleTypeId)
+        {
+            var slot = await _context.Slot
+                .Where(s => s.VehicleTypeId == vehicleTypeId && !s.IsOccupied)
+                .FirstOrDefaultAsync();
+
+            if (slot == null)
+                return null;
+
+            return (slot.SlotId, slot.FloorId);
+        }
+
+        public async Task<bool> UpdateSlotAvailability(int SlotId, bool isOccupied)
+        {
+            var existingSlot = await _context.Slot.FindAsync(SlotId);
+            if (existingSlot == null)
+            {
+                return false;
+            }
+            existingSlot.IsOccupied = isOccupied;
+
+
+            await _context.SaveChangesAsync();
+
+            return true;
         }
     }
 }
